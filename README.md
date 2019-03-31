@@ -23,12 +23,12 @@ After Maven installation run:
 `mvn test -Dplatform=firefox`
 
 ## Run Sanity test suite
-`mvn test -Dplatform=chrome -Dcucumber.options="--tags @sanity`<br/>
+`mvn test -Dplatform=chrome -Dcucumber.options="--tags @sanity"`<br/>
 Sanity test suite consists of a minimal amount of tests which would indicate a viable build for further testing.  In this case the happy paths for Create, Read, Update, Delete have been included.
 
 
 ## Run Smoke test suite
-`mvn test -Dplatform=chrome -Dcucumber.options="--tags @smoke`<br/>
+`mvn test -Dplatform=chrome -Dcucumber.options="--tags @smoke"`<br/>
 Smoke test suite consists of a extended amount of tests which would determine whether the critical functionality of the system is working.  Along with the smoke test suite this would also add some error test cases.
 
 
