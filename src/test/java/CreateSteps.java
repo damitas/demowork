@@ -29,4 +29,9 @@ public class CreateSteps {
         createPO.getIntroducedDateElement().sendKeys(introducedDate);
         createPO.getDiscontinuedDateElement().sendKeys(discontinuedDate);
     }
+    @When("the \"([^\"]*)\" is successfully created$")
+    public void computerCreatedMessage(String computerName) {
+        BasePageObject basePO = new BasePageObject();
+        assertTrue(basePO.getMessageWarningElement().getText().contains(computerName));
+    }
 }
