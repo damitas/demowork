@@ -13,7 +13,7 @@ Preferred IDE: IntelliJ
 ## Installation instructions
 
 After Maven installation run:
-`mvn --version`<br/>Take note of your Java JDK version and edit the pom.xml `maven-compiler-plugin` `<target>` with your JDK version (if not on JDK 12)
+`mvn --version`<br/>Take note of your Java JDK version and edit the pom.xml `maven-compiler-plugin` `<target>` and `<source>` with your JDK version (if not on JDK 12)
 
 
 ## Run tests in Chrome
