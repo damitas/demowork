@@ -36,6 +36,9 @@ Smoke test suite consists of a extended amount of tests which would determine wh
 `mvn test -Dplatform=chrome`<br/>
 Regression test suite contains all the tests within the automation framework and any tests identified as manual tests included in excel.
 
+## Cucumber Reports
+Please find the cucumber report here: /target/cucumber-html-report/index.html
+
 ## Future developments<br/>
 1. Better solution to creating random data. 
 2. Mobile device integration with Appium (if required to run on device) would need all fields to have an `id` tag<br/>
