@@ -17,23 +17,23 @@ After Maven installation run:
 
 
 ## Run tests in Chrome
-`mvn test -Dplatform=chrome`
+cd to the root where the pom.xml is and run the command `mvn test -Dplatform=chrome`
 
 ## Run tests in Firefox
-`mvn test -Dplatform=firefox`
+cd to the root where the pom.xml is and run the command `mvn test -Dplatform=firefox`
 
 ## Run Sanity test suite
-`mvn test -Dplatform=chrome -Dcucumber.options="--tags @sanity"`<br/>
+cd to the root where the pom.xml is and run the command `mvn test -Dplatform=chrome -Dcucumber.options="--tags @sanity"`<br/>
 Sanity test suite consists of a minimal amount of tests which would indicate a viable build for further testing.  In this case the happy paths for Create, Read, Update, Delete have been included.
 
 
 ## Run Smoke test suite
-`mvn test -Dplatform=chrome -Dcucumber.options="--tags @smoke"`<br/>
+cd to the root where the pom.xml is and run the command `mvn test -Dplatform=chrome -Dcucumber.options="--tags @smoke"`<br/>
 Smoke test suite consists of a extended amount of tests which would determine whether the critical functionality of the system is working.  Along with the smoke test suite this would also add some error test cases.
 
 
 ## Run Regression suite
-`mvn test -Dplatform=chrome`<br/>
+cd to the root where the pom.xml is and run the command `mvn test -Dplatform=chrome`<br/>
 Regression test suite contains all the tests within the automation framework and any tests identified as manual tests included in excel.
 
 ## Cucumber Reports
