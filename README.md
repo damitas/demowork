@@ -34,7 +34,7 @@ Smoke test suite consists of a extended amount of tests which would determine wh
 
 ## Run Regression suite
 `mvn test -Dplatform=chrome`<br/>
-Regression test suite contains all the tests within the automation framework and any tests identified as manual tests.
+Regression test suite contains all the tests within the automation framework and any tests identified as manual tests included in excel.
 
 ## Future developments<br/>
 1. Better solution to creating random data. 
