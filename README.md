@@ -1,5 +1,5 @@
 # Automation example<br/>
-Java - Cucumber solution using pageobjects <br/>
+Java-Cucumber-Selenium solution using the PageObject model <br/>
 Supports Browsers: Firefox and Chrome
 
 
