@@ -1,15 +1,22 @@
 # Automation example<br/>
+
+##Solution
 Java-Cucumber-Selenium solution using the PageObject model <br/>
-Supports Browsers: Firefox and Chrome
 
-
-Supports operating systems: Windows and Mac
 ## System requirements
-Maven
+Supports Browsers: Firefox and Chrome<br>
+Supports operating systems: Windows and Mac
 
-Java JDK
+Maven:<br/>
+-install on MAC with `brew install maven`<br/>
+-install on Windows by following instructions here: https://maven.apache.org/install.html
+
+
+Java JDK - at least 1.7+
+
 
 Preferred IDE: IntelliJ
+
 ## Installation instructions
 
 After Maven installation run:
