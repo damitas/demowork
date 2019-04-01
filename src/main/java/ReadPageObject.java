@@ -26,7 +26,12 @@ public class ReadPageObject extends BasePageObject {
     }
 
     public WebElement getPagingLinks(String ahrefLinkText){
-        return driver.findElement(By.linkText(ahrefLinkText));
+        String xpathSelector ="";
+
+        if (ahrefLinkText.equals("Next")){xpathSelector="//a[contains(text(),'Next')]";}
+        if (ahrefLinkText.equals("Previous")){xpathSelector="//a[contains(text(),'Previous')]";}
+
+        return driver.findElement(By.xpath(xpathSelector));
     }
 
     public WebElement getCurrentPage(){

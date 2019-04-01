@@ -39,14 +39,14 @@ public class ReadSteps {
     public void clickNextLink() {
         //search for the unique computer
         ReadPageObject readPO = new ReadPageObject();
-        readPO.getPagingLinks("Next →").click();
+        readPO.getPagingLinks("Next").click();
     }
 
     @When("I click on the previous link")
     public void clickPreviousLink() {
         //search for the unique computer
         ReadPageObject readPO = new ReadPageObject();
-        readPO.getPagingLinks("← Previous").click();
+        readPO.getPagingLinks("Previous").click();
     }
 
     @Then("the next 11 to 20 records are shown")
